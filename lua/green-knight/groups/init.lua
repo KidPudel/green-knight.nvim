@@ -7,7 +7,6 @@ return {
 	require("green-knight.groups.markdown"),
 	require("green-knight.groups.mason"),
 	require("green-knight.groups.mini-statusline"),
-	require("green-knight.groups.noice"),
 	require("green-knight.groups.nvim-cmp"),
 	require("green-knight.groups.nvim-tree"),
 	require("green-knight.groups.orgmode"),
