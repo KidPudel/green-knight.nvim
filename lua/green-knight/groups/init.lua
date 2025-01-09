@@ -9,7 +9,6 @@ return {
 	require("green-knight.groups.mini-statusline"),
 	require("green-knight.groups.nvim-cmp"),
 	require("green-knight.groups.nvim-tree"),
-	require("green-knight.groups.orgmode"),
 	require("green-knight.groups.statusline"),
 	require("green-knight.groups.telescope"),
 	require("green-knight.groups.treesitter"),
