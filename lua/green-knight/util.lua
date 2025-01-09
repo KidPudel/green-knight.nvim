@@ -6,7 +6,7 @@ local function hightlight(name, value)
 end
 
 function M.initialize(group)
-	for name, value in group do
+	for name, value in pairs(group) do
 		hightlight(name, value)
 	end
 end
