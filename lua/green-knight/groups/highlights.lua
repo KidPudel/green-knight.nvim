@@ -63,7 +63,7 @@ function M.highlight(palette, opts)
 		MatchWord = { underline = true },
 		MatchParen = vim.tbl_extend(
 			"force",
-			{ fg = palette.white, bg = palette.green_light2, underline = true },
+			{ fg = palette.yellow, bg = palette.green_light2, underline = false },
 			opts.styles.match_paren
 		),
 		MatchWordCur = { underline = true },
