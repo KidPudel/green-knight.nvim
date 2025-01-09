@@ -39,7 +39,7 @@ function M.highlight(palette, opts)
 		["@lsp.type.comment"] = {},
 		["@markup"] = { fg = palette.white },
 		["@markup.italic"] = { italic = true },
-		["@markup.link"] = { fg = palette.gray_blue },
+		["@markup.link"] = { fg = palette.violet },
 		["@markup.list"] = { fg = palette.white },
 		["@markup.list.unchecked"] = { fg = palette.white },
 		["@markup.literal"] = { fg = palette.gray },
