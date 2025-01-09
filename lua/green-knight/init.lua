@@ -25,7 +25,7 @@ function M.load()
 	local util = require("green-knight.util")
 
 	for _, group in ipairs(groups) do
-		group = group.hightlights(palette, opts)
+		group = group.hightlight(palette, opts)
 		util.initialize(group)
 	end
 end
