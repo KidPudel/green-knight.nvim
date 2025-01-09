@@ -1,6 +1,6 @@
 local M = {}
 
-function M.hightlight(palette, opts)
+function M.highlight(palette, opts)
 	return {
 		LspReferenceRead = { bg = "#36383F" },
 		LspReferenceText = { bg = "#36383F" },
