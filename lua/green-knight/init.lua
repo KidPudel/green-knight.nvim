@@ -1,4 +1,10 @@
 local M = {}
+function M.setup(opts)
+	local settings = require("no-clown-fiesta.settings")
+	if opts then
+		settings.set(opts)
+	end
+end
 
 function M.load()
 	local settings = require("green-knight.settings")
@@ -18,7 +24,7 @@ function M.load()
 	local groups = require("green-knight.groups")
 	local util = require("green-knight.util")
 
-	for _, group in groups do
+	for _, group in ipairs(groups) do
 		group = group.hightlights(palette, opts)
 		util.initialize(group)
 	end
