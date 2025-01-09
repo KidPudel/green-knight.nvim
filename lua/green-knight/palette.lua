@@ -6,12 +6,12 @@ local palette = {
 	green_pale = "#788E7E", -- string
 	green_vibrant = "#24A560", -- comment
 	orange = "#9D713E", -- functions
-	blue = "#647682", -- parameters, but could be other shade of green or orange or red
+	blue = "#9ABED6", -- parameters, but could be other shade of green or orange or red
 	white = "#CEC4B8", -- text, dune.
 	violet = "#968A98", -- constant, numbers
 	yellow = "#C1AF89", -- types, or maybe just use another shade of green
 	gray = "#C1AF89", -- types, or maybe just use another shade of green
-	red = "#6E2424", -- errors
+	red = "#9B5050", -- errors
 	none = "NONE", -- remove
 }
 

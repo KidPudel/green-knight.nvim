@@ -127,7 +127,7 @@ function M.highlight(palette, opts)
 		Bold = { bold = true },
 		Italic = { italic = true },
 		Ignore = { fg = palette.white, bg = palette.green, bold = true },
-		Todo = { fg = palette.red, bg = palette.green, bold = true },
+		Todo = { fg = palette.yellow, bg = palette.green, bold = true },
 		Error = { fg = palette.red, bg = palette.green, bold = true },
 		TabLine = { fg = palette.white, bg = palette.green_pale },
 		TabLineSel = { fg = palette.white, bg = palette.green_pale },
