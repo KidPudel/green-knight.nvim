@@ -7,6 +7,9 @@ local palette = {
 	white = "#CEC4B8", -- text, dune.
 	violet = "#968A98", -- constant, numbers
 	yellow = "#C1AF89", -- types, or maybe just use another shade of green
+	gray = "#C1AF89", -- types, or maybe just use another shade of green
+	red = "#6E2424", -- errors
+	none = "NONE", -- remove
 }
 
 return palette

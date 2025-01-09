@@ -1,4 +1,18 @@
 return {
+	require("green-knight.groups.alpha"),
+	require("green-knight.groups.git"),
+	require("green-knight.groups.highlights"),
+	require("green-knight.groups.lazy"),
+	require("green-knight.groups.lsp"),
+	require("green-knight.groups.markdown"),
+	require("green-knight.groups.mason"),
+	require("green-knight.groups.mini-statusline"),
+	require("green-knight.groups.noice"),
+	require("green-knight.groups.nvim-cmp"),
+	require("green-knight.groups.nvim-tree"),
+	require("green-knight.groups.orgmode"),
+	require("green-knight.groups.statusline"),
+	require("green-knight.groups.telescope"),
 	require("green-knight.groups.treesitter"),
 	require("green-knight.groups.whichkey"),
 }
