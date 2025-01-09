@@ -1,5 +1,5 @@
 local palette = {
-	green = "#0D1E15", -- background
+	green = "#0D1F1A", -- background
 	green_dark = "#091910", -- background
 	green_light = "#1D2C24", -- ui
 	green_light2 = "#2F453A", -- ui
