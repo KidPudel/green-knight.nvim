@@ -12,7 +12,7 @@ function M.load()
 
 	vim.o.background = "dark"
 	vim.o.termguicolors = true
-	vim.o.colors_name = "green-knight"
+	vim.g.colors_name = "green-knight"
 
 	local palette = require("green-knight.palette")
 	local groups = require("green-knight.groups")
