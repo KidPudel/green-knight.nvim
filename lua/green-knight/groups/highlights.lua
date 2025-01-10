@@ -96,7 +96,7 @@ function M.highlight(palette, opts)
 		EndOfBuffer = { fg = palette.white },
 		NonText = { fg = palette.yellow },
 		Variable = vim.tbl_extend("force", { fg = palette.white }, opts.styles.variables),
-		String = { fg = palette.green_pale },
+		String = { fg = palette.green_pale, italic = true },
 		Character = { fg = palette.green_pale },
 		Constant = { fg = palette.violet },
 		Number = { fg = palette.violet },
