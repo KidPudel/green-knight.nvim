@@ -19,7 +19,7 @@ function M.highlight(palette, opts)
 		DiagnosticUnderlineHint = vim.tbl_extend("force", { sp = palette.yellow }, opts.styles.lsp),
 		LspSignatureActiveParameter = { bg = palette.green_pale, bold = true },
 		LspCodeLens = { fg = palette.red },
-		LspInlayHint = { bg = palette.green },
+		LspInlayHint = { fg = palette.gray, bg = palette.green },
 		LspInfoBoarder = { fg = palette.gray, bg = palette.yellow },
 	}
 end
