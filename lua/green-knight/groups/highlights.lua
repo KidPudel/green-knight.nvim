@@ -33,7 +33,7 @@ function M.highlight(palette, opts)
 			fg = palette.white,
 			bold = true,
 		},
-		Comment = vim.tbl_extend("force", { fg = palette.green_vibrant, italic = true }, opts.styles.comments),
+		Comment = vim.tbl_extend("force", { fg = palette.gray, italic = true }, opts.styles.comments),
 		Folded = { fg = palette.white, bg = palette.green_dark },
 		FoldColumn = { fg = palette.white, bg = palette.green_light },
 		LineNr = { fg = palette.white },
