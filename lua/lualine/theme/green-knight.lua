@@ -2,6 +2,7 @@ local colors = {
 	bg = "#171717",
 	fg = "#D0D0D0",
 	gray = "#373737",
+	green_pale = "#549673", -- string
 }
 
 return {
