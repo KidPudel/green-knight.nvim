@@ -2,7 +2,7 @@ local M = {}
 
 function M.highlight(palette, opts)
 	return {
-		CmpItemAbbr = { fg = palette.green_light },
+		CmpItemAbbr = { fg = palette.white },
 		CmpItemAbbrDeprecated = { fg = palette.orange },
 		CmpItemAbbrMatch = { fg = palette.orange },
 		CmpItemAbbrMatchFuzzy = { fg = palette.orange },

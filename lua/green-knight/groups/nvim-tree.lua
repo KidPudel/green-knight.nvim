@@ -22,7 +22,7 @@ function M.highlight(palette, opts)
 		NvimTreeGitMerge = { fg = palette.green_light },
 		NvimTreeGitDirty = { fg = palette.green_light },
 		NvimTreeSymlink = { fg = palette.blue },
-		NvimTreeRootFolder = { fg = palette.green_light, bold = true },
+		NvimTreeRootFolder = { fg = palette.yellow, bold = true },
 		NvimTreeExecFile = { fg = palette.white },
 		NvimTreeStatusLine = { fg = palette.orange, bg = palette.green_pale },
 		NvimTreeStatusLineNC = { fg = palette.orange, bg = palette.green_pale },

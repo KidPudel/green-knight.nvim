@@ -2,8 +2,8 @@ local M = {}
 
 function M.highlight(palette, opts)
 	return {
-		LazyButton = { fg = palette.green_light },
-		LazyButtonActive = { fg = palette.green_light, bold = true },
+		LazyButton = { fg = palette.white },
+		LazyButtonActive = { fg = palette.yellow, bold = true },
 		LazyComment = { fg = palette.gray },
 		LazyCommit = { fg = palette.white },
 		LazyCommitIssue = { fg = palette.red },
