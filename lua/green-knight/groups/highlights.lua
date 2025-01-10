@@ -22,11 +22,13 @@ function M.highlight(palette, opts)
 			fg = palette.yellow,
 			bg = opts.transparent and palette.none or palette.green,
 		},
+
 		-- popup
 		Pmenu = { fg = palette.white, bg = palette.green_light },
 		PmenuSel = { bg = palette.green_light2, fg = palette.white, reverse = true },
 		PmenuMatchSel = { bg = palette.green_light2, fg = palette.white, reverse = true },
 		WildMenu = { fg = palette.white, bg = palette.green_light },
+
 		CursorLineNr = {
 			fg = palette.white,
 			bold = true,
@@ -45,7 +47,7 @@ function M.highlight(palette, opts)
 		NormalFloat = {
 			bg = opts.transparent and palette.none or palette.green_light,
 		},
-		Visual = { bg = palette.white },
+		Visual = { bg = palette.green_light2 },
 		VisualNOS = { bg = palette.green_light },
 		WarningMsg = { fg = palette.red, bg = palette.green },
 		DiffAdd = { bg = palette.white },
