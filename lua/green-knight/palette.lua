@@ -14,7 +14,7 @@ local palette = {
 	yellow = "#C4A970", -- types, or maybe just use another shade of green
 	gray = "#6A6F6D", -- comment
 	gray_light = "#88938F", -- types, or maybe just use another shade of green
-	red = "#C26161", -- errors, keywords
+	red = "=#DA5B5B", -- errors, keywords
 	none = "NONE", -- remove
 }
 
