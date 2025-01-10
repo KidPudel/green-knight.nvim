@@ -3,7 +3,7 @@ local M = {}
 function M.highlight(palette, opts)
 	return {
 		["@annotation"] = { fg = palette.white },
-		["@attribute"] = { fg = palette.white },
+		["@attribute"] = { fg = palette.blue },
 		-- -- ["@boolean"] = { fg = palette.violet },
 		-- -- ["@character"] = { fg = palette.green },
 		-- ["@comment"] = { link = "Comment" },
@@ -50,7 +50,7 @@ function M.highlight(palette, opts)
 		-- ["@number"] = { fg = palette.violet },
 		-- -- ["@number.float"] = { fg = palette.violet },
 		-- -- ["@operator"] = { fg = palette.blue },
-		["@property"] = { fg = palette.white },
+		["@property"] = { fg = palette.blue },
 		-- ["@punctuation.bracket"] = { fg = palette.white },
 		-- ["@punctuation.delimiter"] = { fg = palette.white },
 		-- ["@string"] = { fg = palette.green_pale },
