@@ -25,15 +25,15 @@ function M.highlight(palette, opts)
 
 		-- popup
 		Pmenu = { fg = palette.white, bg = palette.green_light },
-		PmenuSel = { bg = palette.green_light2, fg = palette.white, reverse = false },
-		PmenuMatchSel = { bg = palette.green_light2, fg = palette.white, reverse = false },
+		PmenuSel = { bg = palette.green_light2, fg = palette.white, reverse = true },
+		PmenuMatchSel = { bg = palette.green_light2, fg = palette.white, reverse = true },
 		WildMenu = { fg = palette.white, bg = palette.green_light },
 
 		CursorLineNr = {
 			fg = palette.white,
 			bold = true,
 		},
-		Comment = vim.tbl_extend("force", { fg = palette.green_vibrant }, opts.styles.comments),
+		Comment = vim.tbl_extend("force", { fg = palette.green_vibrant, italic = true }, opts.styles.comments),
 		Folded = { fg = palette.white, bg = palette.green_dark },
 		FoldColumn = { fg = palette.white, bg = palette.green_light },
 		LineNr = { fg = palette.white },
