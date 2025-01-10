@@ -11,7 +11,7 @@ local palette = {
 	white = "#CEC4B8", -- text, dune.
 	violet = "#968A98", -- constant, numbers
 	yellow = "#C1AF89", -- types, or maybe just use another shade of green
-	gray = "#C1AF89", -- types, or maybe just use another shade of green
+	gray = "#6A6F6D", -- types, or maybe just use another shade of green
 	red = "#C26161", -- errors, keywords
 	none = "NONE", -- remove
 }
