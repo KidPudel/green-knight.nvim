@@ -3,7 +3,7 @@ local M = {}
 function M.highlight(palette, opts)
 	return {
 		Normal = {
-			fg = palette.green_light,
+			fg = palette.white,
 			bg = opts.transparent and palette.none or palette.green,
 		},
 		SignColumn = { bg = opts.transparent and palette.none or palette.green },
@@ -89,12 +89,12 @@ function M.highlight(palette, opts)
 		Title = { fg = palette.white },
 		ErrorMsg = { fg = palette.red, bg = palette.green, bold = true },
 		Search = { fg = palette.orange, bg = palette.green_light },
-		IncSearch = { fg = palette.green_pale, bg = palette.orange },
+		IncSearch = { fg = palette.green_light2, bg = palette.orange },
 		Substitute = { fg = palette.green_pale, bg = palette.orange },
 		MoreMsg = { fg = palette.white },
 		Question = { fg = palette.white },
 		EndOfBuffer = { fg = palette.white },
-		NonText = { fg = palette.green_light },
+		NonText = { fg = palette.yellow },
 		Variable = vim.tbl_extend("force", { fg = palette.white }, opts.styles.variables),
 		String = { fg = palette.green_pale },
 		Character = { fg = palette.green_pale },
