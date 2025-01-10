@@ -1,9 +1,10 @@
 local palette = {
-	green = "#0D1F1A", -- background
-	green_dark = "#091910", -- background
-	green_light = "#1D2C24", -- ui
-	green_light2 = "#2F453A", -- ui
-	green_pale = "#788E7E", -- string
+	green = "#0D1F1C", -- background
+	green_dark = "#0A1614", -- dark accents
+	green_light = "#132C28", -- ui, light accents
+	green_light2 = "#1F3D38", -- ui
+	-- green_pale = "#788E7E", -- string
+	green_pale = "#537D67", -- string
 	green_vibrant = "#24A560", -- comment
 	orange = "#9D713E", -- functions
 	blue = "#9ABED6", -- parameters, but could be other shade of green or orange or red
