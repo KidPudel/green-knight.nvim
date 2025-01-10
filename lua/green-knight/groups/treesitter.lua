@@ -27,6 +27,12 @@ function M.highlight(palette, opts)
 		["@function.macro"] = { fg = palette.orange },
 		["@function.method"] = { fg = palette.orange },
 		["@function.method.call"] = { fg = palette.orange },
+		["@lsp.type.magicFunction"] = { fg = palette.orange },
+		["@lsp.typemod.function.builtin"] = { fg = palette.orange },
+		["@lsp.typemod.function.defaultLibrary"] = { fg = palette.orange },
+		["@lsp.typemod.method.defaultLibrary"] = { fg = palette.orange },
+		["@lsp.typemod.function.readonly"] = { fg = palette.orange },
+
 		["@keyword"] = vim.tbl_extend("force", { fg = palette.red }, opts.styles.keywords),
 		-- -- ["@keyword.conditional"] = { fg = palette.gray_blue },
 		-- -- ["@keyword.coroutine"] = { fg = palette. },
@@ -65,9 +71,12 @@ function M.highlight(palette, opts)
 		-- ["@type"] = vim.tbl_extend("force", { fg = palette.white }, opts.styles.type),
 		-- ["@type.builtin"] = { fg = palette.white },
 		["@variable"] = vim.tbl_extend("force", { fg = palette.white }, opts.styles.variables),
+		["@variable.parameter"] = { fg = palette.blue },
+		["@variable.member"] = { fg = palette.blue },
+		["@variable.field"] = { fg = palette.blue },
+		["@variable"] = vim.tbl_extend("force", { fg = palette.white }, opts.styles.variables),
+
 		-- ["@variable.builtin"] = { fg = palette.white },
-		-- ["@variable.field"] = { fg = palette.white },
-		-- ["@variable.parameter"] = { fg = palette.white },
 		-- ["@variable.parameter.reference"] = { fg = palette.white },
 	}
 end
