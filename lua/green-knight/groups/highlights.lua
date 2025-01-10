@@ -25,8 +25,8 @@ function M.highlight(palette, opts)
 
 		-- popup
 		Pmenu = { fg = palette.white, bg = palette.green_light },
-		PmenuSel = { bg = palette.green_light2, fg = palette.white, reverse = true },
-		PmenuMatchSel = { bg = palette.green_light2, fg = palette.white, reverse = true },
+		PmenuSel = { bg = palette.green_light2, fg = palette.white, reverse = false },
+		PmenuMatchSel = { bg = palette.green_light2, fg = palette.white, reverse = false },
 		WildMenu = { fg = palette.white, bg = palette.green_light },
 
 		CursorLineNr = {
