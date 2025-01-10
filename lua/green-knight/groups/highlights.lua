@@ -102,7 +102,7 @@ function M.highlight(palette, opts)
 		Number = { fg = palette.violet },
 		Boolean = { fg = palette.violet },
 		Float = { fg = palette.violet },
-		Identifier = { fg = palette.white },
+		Identifier = { fg = palette.blue },
 		Function = vim.tbl_extend("force", { fg = palette.orange }, opts.styles.functions),
 		Operator = { fg = palette.white },
 		Type = vim.tbl_extend("force", { fg = palette.yellow }, opts.styles.type),
