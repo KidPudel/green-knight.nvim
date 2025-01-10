@@ -74,6 +74,7 @@ function M.highlight(palette, opts)
 		["@variable.parameter"] = { fg = palette.white },
 		-- after dot of the variable of type x
 		["@variable.member"] = { fg = palette.blue },
+		-- field of the struct
 		["@variable.field"] = { fg = palette.blue },
 
 		-- ["@variable.builtin"] = { fg = palette.white },
